@@ -20,7 +20,7 @@ namespace Paterna_BackEnd.Data
 
         }
         public DbSet<Services> Services { get; set; }
-        //public DbSet<Setting> Settings { get; set; }
+        public DbSet<Settings> Settings { get; set; }
 
     }
 }

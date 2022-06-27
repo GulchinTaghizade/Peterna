@@ -8,6 +8,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Paterna_BackEnd.Data;
+using Paterna_BackEnd.Servicess;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -33,6 +34,7 @@ namespace Paterna_BackEnd
             services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();
+            services.AddScoped<SettingService>();
             services.ConfigureApplicationCookie(config =>
             {
                 config.LoginPath = "/AdminPanel/Account/LogIn";
