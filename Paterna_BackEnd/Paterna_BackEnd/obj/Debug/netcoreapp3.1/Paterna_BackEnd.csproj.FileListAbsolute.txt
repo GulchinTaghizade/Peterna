@@ -162,3 +162,8 @@ C:\Users\Asus\Desktop\Peterna\Paterna_BackEnd\Paterna_BackEnd\obj\Debug\netcorea
 C:\Users\Asus\Desktop\Peterna\Paterna_BackEnd\Paterna_BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminPanel\Views\_ViewStart.cshtml.g.cs
 C:\Users\Asus\Desktop\Peterna\Paterna_BackEnd\Paterna_BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminPanel\Views\Dashboard\Index.cshtml.g.cs
 C:\Users\Asus\Desktop\Peterna\Paterna_BackEnd\Paterna_BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminPanel\Views\Shared\_AdminLayout.cshtml.g.cs
+C:\Users\Asus\Desktop\Peterna\Paterna_BackEnd\Paterna_BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminPanel\Views\Services\Create.cshtml.g.cs
+C:\Users\Asus\Desktop\Peterna\Paterna_BackEnd\Paterna_BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminPanel\Views\Services\Delete.cshtml.g.cs
+C:\Users\Asus\Desktop\Peterna\Paterna_BackEnd\Paterna_BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminPanel\Views\Services\Details.cshtml.g.cs
+C:\Users\Asus\Desktop\Peterna\Paterna_BackEnd\Paterna_BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminPanel\Views\Services\Edit.cshtml.g.cs
+C:\Users\Asus\Desktop\Peterna\Paterna_BackEnd\Paterna_BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminPanel\Views\Services\Index.cshtml.g.cs
