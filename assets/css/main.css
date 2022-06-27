@@ -187,4 +187,25 @@ nav #collapse_navbar ul li {
     max-height: 390px;
   }
 }
+
+#report {
+  background-color: #00798A;
+  color: white;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#report h3 {
+  font-weight: 600;
+  font-size: 60px;
+}
+
+#report p {
+  font-size: 22px;
+}
+
+#report #left_side,
+#report #right_side {
+  padding: 35px;
+}
 /*# sourceMappingURL=main.css.map */
