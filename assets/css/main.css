@@ -1,1 +1,72 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+* a {
+  text-decoration: none;
+  color: white !important;
+}
+
+* a:hover {
+  text-decoration: none !important;
+}
+
+nav {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  background-color: black;
+  padding-top: 15px;
+}
+
+nav .nav_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav #logo {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+
+nav #right_side ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+}
+
+nav #right_side ul li {
+  padding: 5px;
+  line-height: 20px;
+}
+
+nav #hamb_icon {
+  display: none;
+}
+
+nav #collapse_navbar {
+  display: none;
+}
+
+nav #collapse_navbar ul {
+  list-style: none;
+  color: white;
+  font-size: 14px;
+}
+
+nav #collapse_navbar ul li {
+  padding: 15px;
+}
+/*# sourceMappingURL=main.css.map */
