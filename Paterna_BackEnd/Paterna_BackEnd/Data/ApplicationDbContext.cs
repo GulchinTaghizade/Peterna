@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Paterna_BackEnd.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -12,5 +13,6 @@ namespace Paterna_BackEnd.Data
             : base(options)
         {
         }
+        public DbSet<Services> Services { get; set; }
     }
 }

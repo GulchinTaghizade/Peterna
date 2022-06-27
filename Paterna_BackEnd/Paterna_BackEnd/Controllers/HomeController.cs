@@ -19,7 +19,7 @@ namespace Paterna_BackEnd.Controllers
         public IActionResult Index()
         {
 
-            return View();
+            return View(_context.Services);
         }
 
 
