@@ -7,7 +7,6 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using Paterna_BackEnd.Areas.AdminPanel.Models;
 using Paterna_BackEnd.Data;
 using Paterna_BackEnd.Models;
 
