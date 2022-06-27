@@ -116,3 +116,20 @@ nav {
         font-size: 20px;
     }
 }
+#our_services {
+    padding-top: 80px;
+    padding-bottom: 40px;
+
+    .section_title {
+        color: $backgorund-color;
+        font-weight: 600;
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+
+    .our_services_col {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+}

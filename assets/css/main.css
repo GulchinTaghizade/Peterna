@@ -113,4 +113,24 @@ nav #collapse_navbar ul li {
   font-weight: 300;
   font-size: 20px;
 }
+
+#our_services {
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+#our_services .section_title {
+  color: #00798A;
+  font-weight: 600;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+#our_services .our_services_col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
 /*# sourceMappingURL=main.css.map */
