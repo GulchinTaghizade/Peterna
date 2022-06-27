@@ -171,4 +171,20 @@ nav #collapse_navbar ul li {
 #our_services .service_card h4 {
   font-weight: 600;
 }
+
+@media screen and (max-width: 768px) {
+  .our_services_container {
+    max-width: 100%;
+  }
+  .our_services_container .section_title {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .service_card {
+    margin-top: 15px;
+    max-height: 390px;
+  }
+}
 /*# sourceMappingURL=main.css.map */

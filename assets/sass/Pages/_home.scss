@@ -167,3 +167,22 @@ nav {
         }
     }
 }
+
+@media screen and (max-width: 768px) {
+
+    .our_services_container {
+        max-width: 100%;
+
+        .section_title {
+            margin-left: 20px;
+        }
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .service_card {
+        margin-top: 15px;
+        max-height: 390px;
+    }
+}
