@@ -10,6 +10,7 @@ using Paterna_BackEnd.Models;
 
 namespace Paterna_BackEnd.Areas.AdminPanel.Controllers
 {
+    [Authorize]
     [Area("AdminPanel")]
     public class ServicesController : Controller
     {
