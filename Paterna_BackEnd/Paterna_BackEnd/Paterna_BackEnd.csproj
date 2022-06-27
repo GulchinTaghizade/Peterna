@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>aspnet-Paterna_BackEnd-3AB088B2-FE63-4775-B88F-16B4A50F6C57</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.22" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.22" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.22" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.22" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.22" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\" />
+    <Folder Include="Areas\AdminPanel\Controllers\" />
+    <Folder Include="Areas\AdminPanel\Data\" />
+    <Folder Include="Areas\AdminPanel\Models\" />
+    <Folder Include="Areas\AdminPanel\Views\" />
+  </ItemGroup>
+
+</Project>
