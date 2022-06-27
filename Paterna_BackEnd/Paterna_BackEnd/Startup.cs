@@ -34,6 +34,10 @@ namespace Paterna_BackEnd
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();
+            services.ConfigureApplicationCookie(config =>
+            {
+                config.LoginPath = "/AdminPanel/Account/LogIn";
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

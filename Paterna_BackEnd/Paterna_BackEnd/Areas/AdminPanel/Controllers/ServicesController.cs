@@ -2,9 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Paterna_BackEnd.Areas.AdminPanel.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Paterna_BackEnd.Areas.AdminPanel.Models;
 using Paterna_BackEnd.Data;
 using Paterna_BackEnd.Models;
 
@@ -22,9 +25,24 @@ namespace Paterna_BackEnd.Areas.AdminPanel.Controllers
         }
 
         // GET: AdminPanel/Services
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string sortOrder,
+    string currentFilter,
+    string searchString,
+    int? pageNumber)
         {
-            return View(await _context.Services.ToListAsync());
+            ViewData["CurrentSort"] = sortOrder;
+            if (searchString != null)
+            {
+                pageNumber = 1;
+            }
+            else
+            {
+                searchString = currentFilter;
+            }
+            var services = from s in _context.Services
+                           select s;
+            int pageSize = 2;
+            return View(await PaginatedList<Services>.CreateAsync(services.AsNoTracking(), pageNumber ?? 1, pageSize));
         }
 
         // GET: AdminPanel/Services/Details/5
