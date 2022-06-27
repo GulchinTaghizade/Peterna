@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Paterna_BackEnd.Services
+namespace Paterna_BackEnd.Servicess
 {
     public class SettingService
     {
