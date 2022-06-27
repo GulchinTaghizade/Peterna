@@ -1,4 +1,4 @@
-﻿
+﻿@model IEnumerable<Services>
 @{
     ViewData["Title"] = "Index";
 }
@@ -43,39 +43,19 @@
                 </div>
             </div>
             <div class="col-md-12 card_container">
-                <div class="col-lg-4 col-md-4">
-                    <div class="service_card">
-                        <i class="fa fa-desktop card_icon"></i>
-                        <h4>Sure Quique Menu</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec nisl odio. Mauris
-                            vehicula at nunc id posuere.
-                        </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                @foreach (var card in Model)
+                {
+                    <div class="col-lg-4 col-md-4">
+                        <div class="service_card">
+                            <i class="@card.Icon"></i>
+                            <h4>@card.Title</h4>
+                            <p>@card.Subtitle
+                            </p>
+                            <p>@card.Description</p>
+                        </div>
                     </div>
-                </div>
-                <div class=" col-lg-4 col-md-4">
-                    <div class="service_card">
-                        <i class="fa-solid fa-flask card_icon"></i>
-                        <h4>100% Free Responsive </h4>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec nisl odio. Mauris
-                            vehicula at nunc id posuere.
-                        </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4">
-                    <div class="service_card ">
-                        <i class="fa-regular fa-credit-card card_icon"></i>
-                        <h4>Clean & Customizable</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec nisl odio. Mauris
-                            vehicula at nunc id posuere.
-                        </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                </div>
+                }
+
             </div>
             <div class="col-md-12 ">
                 <div class="col-lg-12 col-md-12 col-sm-12">
