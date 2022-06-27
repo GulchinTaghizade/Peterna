@@ -24,51 +24,9 @@
 </head>
 
 <body>
-    <!-- Navbar start -->
-    <nav>
-        <div class="container nav_container ">
-            <div class="row nav_row">
-                <div id="logo"><a href="#">PETERNA</a></div>
-                <div id="right_side">
-                    <ul>
-                        <a href="#main_section">
-                        <li>HOME</li></a>
-                        <a href="#our_services">
-                        <li>SERVICES</li></a>
-                        <a href="#">
-                        <li>PRICING</li></a>
-                        <a href="#contact_us">
-                        <li>CONTACT</li></a>
-                    </ul>
-                </div>
-                <i id="hamb_icon" class="fa-solid fa-bars"></i>
-            </div>
-            <div class="row nav_row">
-                <div id="collapse_navbar">
-                    <ul>
-                        <li><a href="#">HOME</a></li>
-                        <li><a href="#our_services">SERVICES</a></li>
-                        <li><a href="">PRICING</a></li>
-                        <li><a href="#contact_us">CONTACT</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </nav>
-    <!-- Navbar end -->
+    @await Component.InvokeAsync("Header")
     @RenderBody()
-    <!-- Footer start -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col info_col">
-                    <p>2015 www.yourdomain.com | All Right Reserved | Terms | Policies | Licenses</p>
-                </div>
-            </div>
-
-        </div>
-    </footer>
-    <!-- Footer end -->
+    @await Component.InvokeAsync("Footer")
 
 </body>
 
