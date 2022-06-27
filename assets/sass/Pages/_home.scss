@@ -120,7 +120,8 @@ nav {
     }
 }
 
-#our_services {
+#our_services,
+#contact_us {
     padding-top: 80px;
     padding-bottom: 40px;
 
@@ -131,7 +132,8 @@ nav {
         padding-bottom: 20px;
     }
 
-    .our_services_col {
+    .our_services_col,
+    .contact_us_col {
         display: flex;
         flex-wrap: wrap;
 

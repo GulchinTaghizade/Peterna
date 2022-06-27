@@ -114,19 +114,24 @@ nav #collapse_navbar ul li {
   font-size: 20px;
 }
 
-#our_services {
+#our_services,
+#contact_us {
   padding-top: 80px;
   padding-bottom: 40px;
 }
 
-#our_services .section_title {
+#our_services .section_title,
+#contact_us .section_title {
   color: #00798A;
   font-weight: 600;
   font-size: 40px;
   padding-bottom: 20px;
 }
 
-#our_services .our_services_col {
+#our_services .our_services_col,
+#our_services .contact_us_col,
+#contact_us .our_services_col,
+#contact_us .contact_us_col {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -134,18 +139,21 @@ nav #collapse_navbar ul li {
       flex-wrap: wrap;
 }
 
-#our_services .section_summary {
+#our_services .section_summary,
+#contact_us .section_summary {
   font-weight: 300;
   font-size: 15px;
   line-height: 30px;
 }
 
-#our_services .section_subtitle {
+#our_services .section_subtitle,
+#contact_us .section_subtitle {
   font-weight: 500;
   font-size: 30px;
 }
 
-#our_services .card_container {
+#our_services .card_container,
+#contact_us .card_container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -154,7 +162,8 @@ nav #collapse_navbar ul li {
   margin-bottom: 50px;
 }
 
-#our_services .service_card {
+#our_services .service_card,
+#contact_us .service_card {
   color: white;
   background-color: #00798A;
   padding: 20px;
@@ -163,12 +172,14 @@ nav #collapse_navbar ul li {
   margin-bottom: 15px;
 }
 
-#our_services .service_card .card_icon {
+#our_services .service_card .card_icon,
+#contact_us .service_card .card_icon {
   font-size: 80px;
   padding: 25px 0;
 }
 
-#our_services .service_card h4 {
+#our_services .service_card h4,
+#contact_us .service_card h4 {
   font-weight: 600;
 }
 
