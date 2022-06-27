@@ -1,9 +1,10 @@
 @import "../abstract/variables";
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family:$font-family;
+    font-family: $font-family;
 
     a {
         text-decoration: none;
@@ -15,6 +16,7 @@
     }
 
 }
+
 nav {
     position: fixed;
     z-index: 1;
@@ -90,6 +92,7 @@ nav {
     }
 
 }
+
 #main_section {
     background-color: $backgorund-color;
     color: white;
@@ -116,6 +119,7 @@ nav {
         font-size: 20px;
     }
 }
+
 #our_services {
     padding-top: 80px;
     padding-bottom: 40px;
@@ -132,6 +136,7 @@ nav {
         flex-wrap: wrap;
 
     }
+
     .section_summary {
         font-weight: 300;
         font-size: 15px;
@@ -148,6 +153,7 @@ nav {
         flex-wrap: wrap;
         margin-bottom: 50px;
     }
+
     .service_card {
         color: white;
         background-color: $backgorund-color;
@@ -187,7 +193,8 @@ nav {
     }
 }
 
-#report{
+#report,
+#statistics {
     background-color: $backgorund-color;
     color: white;
     text-align: center;
@@ -206,4 +213,8 @@ nav {
     #right_side {
         padding: 35px;
     }
+}
+
+#statistics {
+    padding: 30px;
 }
